@@ -1,44 +1,44 @@
-# Citexa 📚
+# Citexa: Source-Grounded Adaptive Study Companion
 
 > **A clearer way through your course material.**  
 > Citexa turns lecture slides, readings, PDFs, YouTube recordings, and notes into an organized, fully traceable AI study workspace where every concept links directly back to its original source.
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 **Citexa** is an intelligent, source-grounded learning ecosystem designed to bridge the gap between heavy course content and effective study habits. Instead of generating untraceable AI notes, Citexa retains complete provenance—mapping generated study units, flashcards, concept maps, and quizzes directly back to exact page numbers, timestamps, and slide sources.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🎓 1. Source-Grounded Study Workspace
+###  1. Source-Grounded Study Workspace
 * **Traceable by Design:** Answers and insights cite precise source locations (e.g., PDF page numbers, video timestamps).
 * **Multi-Format Ingestion:** Process PDFs, slide decks, lecture recordings, handwritten notes, and YouTube lectures.
 * **Strict Source Guardrails:** If a concept isn't covered in your uploaded materials, the AI tutor explicitly states that it's missing from the source context.
 
-### 🗺️ 2. Interactive Course Map & Knowledge Graphs
+###  2. Interactive Course Map & Knowledge Graphs
 * **Prerequisite Mapping:** Visual dependency trees showing how foundational concepts build toward advanced topics.
 * **Mastery Color-Coding:** Real-time visual tracking across topics (`Untested`, `Weak`, `Learning`, `Strong`).
 
-### 📊 3. Analytics & Progress Dashboard
+###  3. Analytics & Progress Dashboard
 * **Mastery Over Time:** Tracks your retention and concept mastery trends across quizzes and study sessions.
 * **Review Queues:** Highlights weak concepts and items due for review based on forgetting curve models.
 
-### 🧪 4. Exam Lab & Revision Suite
+###  4. Exam Lab & Revision Suite
 * **Past-Paper Priority Guide:** Ranks recurring course topics across past papers with linked passage evidence.
 * **Auto-Generated Flashcards:** Focuses specifically on weak topics, linked directly to source material.
 * **Course Glossary:** Plain-language definitions extracted from materials, mapped directly to their occurrences.
 * **Cheat Sheets:** Concise, source-supported definitions, formulas, and examples ready for export or printing.
 
-### ⏱️ 5. Gamified Study Rhythms & Goals
+###  5. Gamified Study Rhythms & Goals
 * **Daily Goal Tracking:** Set custom daily study targets (e.g., 90 mins/day) with in-app reminder preferences.
 * **XP & Streak System:** Earn XP by logging focused study blocks and mastering concepts.
 
 ---
 
-## 🗺️ Application Architecture & Views
+##  Application Architecture & Views
 
 | Interface View | Description |
 | :--- | :--- |
@@ -55,7 +55,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** React / Modern Web Interface
 * **Styling:** Custom CSS / Tailwind CSS (Warm, minimal editorial design system)
@@ -64,7 +64,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -102,7 +102,7 @@
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are always welcome! If you have suggestions for improvements, feature requests, or bug reports:
 
@@ -114,6 +114,6 @@ Contributions are always welcome! If you have suggestions for improvements, feat
 
 ---
 
-## 📝 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for more information.
