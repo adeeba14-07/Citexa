@@ -1,0 +1,16 @@
+{
+  "name": "Citexa — source-grounded study companion",
+  "short_name": "Citexa",
+  "description": "Every answer, cited to the source. Study from your own lectures, slides and videos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f3eb",
+  "theme_color": "#25473c",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

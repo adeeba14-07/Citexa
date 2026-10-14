@@ -1,0 +1,9 @@
+requests>=2.31
+openai>=1.40
+matplotlib>=3.8
+numpy>=1.26
+# RAGAS evaluation (0.2.x API). If the install or import fails, run_eval.py
+# still reports the custom metrics and tells you how to fix RAGAS.
+ragas>=0.2,<0.3
+langchain-openai>=0.2
+datasets>=2.20

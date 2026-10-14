@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm run typecheck && pnpm -r --if-present run build",
+    "typecheck:libs": "tsc --build",
+    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
+    "dev": "node dev.mjs",
+    "setup": "node dev.mjs --setup"
+  },
+  "private": true,
+  "dependencies": {
+    "@replit/connectors-sdk": "^0.4.3"
+  },
+  "devDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "4.63.1",
+    "@tailwindcss/oxide-win32-x64-msvc": "4.3.3",
+    "lightningcss-win32-x64-msvc": "1.32.0",
+    "prettier": "^3.9.6",
+    "typescript": "~5.9.3"
+  }
+}

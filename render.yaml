@@ -1,0 +1,26 @@
+# Render Blueprint for Citexa. New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: citexa
+    runtime: docker
+    plan: starter          # a persistent disk needs a paid plan; see DEPLOY_RENDER.md
+    healthCheckPath: /api/healthz
+    disk:
+      name: citexa-data
+      mountPath: /var/data
+      sizeGB: 2
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: VITE_CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: STORAGE_SECRET
+        generateValue: true
+      - key: DEMO_MODE
+        value: "false"
